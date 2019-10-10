@@ -1,0 +1,10 @@
+{
+  "name": "Vue Reddit",
+  "version": "1.0.0",
+  "description": "vue reddit website",
+  "author": "chenxic1011@gmail.com",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm install express"
+  }
+}
