@@ -6,17 +6,13 @@
 
 #### Preview | 预览
 
-![image-20191025143441031](/Users/chenxi/Library/Application Support/typora-user-images/image-20191025143441031.png)
+![image-20191025143441031](./imgs/reddit1.png)
 
 
-
-![image-20191025143716592](/Users/chenxi/Library/Application Support/typora-user-images/image-20191025143716592.png)
-
+![image-20191025143716592](./imgs/reddit2.png)
 
 
-![image-20191025143723713](/Users/chenxi/Library/Application Support/typora-user-images/image-20191025143723713.png)
-
-
+![image-20191025143723713](./imgs/reddit3.png)
 
 ------
 
