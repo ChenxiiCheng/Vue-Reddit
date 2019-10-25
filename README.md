@@ -2,7 +2,7 @@
 
 > 一个基于Vue大礼包制作的Node论坛项目
 
-[Vue-Reddit | Heroku](https://cnode-vue.herokuapp.com)
+[Vue-Reddit | Heroku](https://cnode-vue.herokuapp.com) | 若一小时内若无访问，Heroku后台会自动睡眠，所以再次访问速度会慢些 | Heroku partitions according to resource requirements, if the application has not been accessed for a while, the program stops.
 
 #### Preview | 预览
 
