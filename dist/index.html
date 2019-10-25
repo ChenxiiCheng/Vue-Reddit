@@ -1,1 +1,33 @@
-<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=icon href=/favicon.ico><title>Reddit</title><link href=/css/app.01cbf0f3.css rel=preload as=style><link href=/js/app.8e4ee110.js rel=preload as=script><link href=/js/chunk-vendors.4db9ecd5.js rel=preload as=script><link href=/css/app.01cbf0f3.css rel=stylesheet></head><body><noscript><strong>We're sorry but vue-cnodejs doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=/js/chunk-vendors.4db9ecd5.js></script><script src=/js/app.8e4ee110.js></script></body></html>
+Html Webpack Plugin:
+<pre>
+  Error: Parse Error: <meta http-equiv="X-UA-Compatible" content="IE=edge"; img-src 'self' data:
+      base64;/>
+      <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+      <link rel="icon" href="./logo1.png" />
+      <title>Reddit</title>
+    <link href="/Vue-Reddit/css/app.01cbf0f3.css" rel="preload" as="style"><link href="/Vue-Reddit/js/  app.f273e872.js" rel="preload" as="script"><link href="/Vue-Reddit/js/chunk-vendors.4db9ecd5.js" rel  ="preload" as="script"><link href="/Vue-Reddit/css/app.01cbf0f3.css" rel="stylesheet"></head>
+    <body>
+      <noscript>
+        <strong
+          >We're sorry but vue-cnodejs doesn't work properly without JavaScript
+          enabled. Please enable it to continue.</strong
+        >
+      </noscript>
+      <div id="app"></div>
+      <!-- built files will be auto injected -->
+    <script type="text/javascript" src="/Vue-Reddit/js/chunk-vendors.4db9ecd5.js"></script><script typ  e="text/javascript" src="/Vue-Reddit/js/app.f273e872.js"></script></body>
+  </html>
+  
+  - htmlparser.js:240 new HTMLParser
+    [vue-cnodejs]/[html-minifier]/src/htmlparser.js:240:13
+  
+  - htmlminifier.js:966 minify
+    [vue-cnodejs]/[html-minifier]/src/htmlminifier.js:966:3
+  
+  - htmlminifier.js:1326 exports.minify
+    [vue-cnodejs]/[html-minifier]/src/htmlminifier.js:1326:16
+  
+  - index.js:316 Promise.resolve.then.then.html
+    [vue-cnodejs]/[html-webpack-plugin]/index.js:316:18
+  
+</pre>
